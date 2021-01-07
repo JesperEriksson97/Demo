@@ -1,0 +1,15 @@
+.searchbar {
+  padding-top: 35px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.searchbar-space {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.searchbar-select__control {
+  min-height: 48px !important;
+}

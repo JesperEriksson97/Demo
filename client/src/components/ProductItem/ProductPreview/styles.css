@@ -1,0 +1,11 @@
+:root {
+  --btn-primary: var(--btn-primary: #669bce);
+  --text-primary: var(--text-primary: #ffffff);
+}
+
+.preview-add-to-cart-btn:disabled {
+  color: var(--text-primary);
+  background-color: var(--btn-primary);
+  border-color: var(--btn-primary);
+  opacity: 1 !important;
+}

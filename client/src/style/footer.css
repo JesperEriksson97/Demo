@@ -1,0 +1,30 @@
+:root {
+  --footer-bg: var(--site-bg-secondary);
+}
+
+.jumbotron.footer {
+  background-color: var(--footer-bg);
+  bottom: 0;
+  color: var(--text-secondary);
+  font-size: small;
+  margin-bottom: 0;
+  border-radius: 0rem !important;
+  width: 100%;
+}
+
+.footer .row {
+  justify-content: space-evenly;
+}
+
+.footer .col {
+  max-width: 350px;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer li {
+  padding: 4px 0 4px 0;
+}

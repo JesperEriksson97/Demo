@@ -1,0 +1,32 @@
+#become-producer {
+  background-image: url('../images/headerField.jpg') !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#become-producer .container {
+  background: rgb(220, 221, 189);
+  padding: 2em;
+  border-radius: 1em;
+}
+
+#become-producer h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+#become-producer p {
+  font-size: 0.95em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  max-width: 550px;
+}
+
+.producer-breadcrumb .breadcrumb {
+  background-color: rgb(220, 221, 189) !important;
+}
+
+.producer-breadcrumb .breadcrumb a {
+  text-decoration: none !important;
+}

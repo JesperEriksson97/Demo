@@ -1,0 +1,31 @@
+.featured-products {
+  border: none !important;
+  height: fit-content !important;
+  max-width: 100% !important;
+  font-size: 0.85em !important;
+  margin-right: 2em !important;
+}
+
+.featured-products .card-body {
+  padding: 0.5em !important;
+  border-radius: 1.5em !important;
+}
+
+.featured-products .featured-products-img {
+  object-fit: cover !important;
+  height: 7em !important;
+  border-radius: 1.5em !important;
+  margin-bottom: 0.5em !important;
+}
+
+.featured-products .featured-products-text {
+  margin-bottom: 0.7em !important;
+  text-align: center;
+}
+
+.featured-products h6 {
+  font-weight: 200 !important;
+  font-size: 1em !important;
+  text-align: center;
+  margin-bottom: 0.5em !important;
+}

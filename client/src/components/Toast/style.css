@@ -1,0 +1,7 @@
+.toast {
+  position: sticky;
+  background-color: #fff;
+  bottom: 15px;
+  left: 15px;
+  z-index: 100;
+}

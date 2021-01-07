@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+@import './navbar.css';
+@import './footer.css';
+@import './section.css';
+@import './header.css';
+@import './loginModal.css';
+@import './home.css';
+@import './becomeProducer.css';
+@import './productList.css';
+@import './product.css';
+@import './cart.css';
+@import './userPages.css';
+@import './productOverview.css';
+
+:root {
+  --site-bg: #8fcf6d;
+  --site-bg-secondary: #a8a463;
+  --site-grey: #707070;
+  --site-button: #669bce;
+  --text-primary: #ffffff;
+  --text-secondary: #404040;
+  --btn-primary: #669bce;
+}
+
+html {
+  height: -webkit-fill-available !important;
+}
+
+body {
+  font-family: 'Roboto';
+  font-weight: 400;
+  min-height: 100%;
+  min-height: 100vh;
+  min-height: -webkit-fill-available !important;
+}
+
+.btn-green {
+  color: var(--text-primary);
+  background-color: var(--site-bg);
+  border-color: var(--site-bg);
+}
+
+.btn-blue {
+  color: var(--text-primary);
+  background-color: var(--btn-primary);
+  border-color: var(--btn-primary);
+}
+
+.has-success {
+  color: var(--text-secondary);
+  padding-right: 2.25rem;
+  padding-top: 0.5rem;
+  background-repeat: no-repeat;
+  font-size: 0.95rem;
+  display: block;
+}

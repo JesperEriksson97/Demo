@@ -1,0 +1,26 @@
+:root {
+  --header-color: var(--text-primary);
+}
+
+.app-slogan {
+  color: var(--header-color);
+  font-family: 'Permanent Marker' !important;
+  text-align: center;
+}
+
+.header {
+  background-image: url('../images/headerField.jpg') !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 767px) {
+  .app-slogan {
+    font-size: 75px;
+  }
+}

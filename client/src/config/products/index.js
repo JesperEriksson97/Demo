@@ -1,0 +1,156 @@
+/* eslint-disable global-require */
+export const products = [
+  {
+    id: 1,
+    name: 'Söt-syrliga äpplen',
+    img: require('../../images/products/apples.jpg').default,
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nam rutrum felis non neque pharetra.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nam rutrum felis non neque pharetra.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nam rutrum felis non neque pharetra.',
+    price: 35,
+    format: 'kg',
+    date: new Date(2020, 11, 25),
+    producer: 'Johans gård',
+    categories: ['frukt'],
+    address: {
+      street: 'Hannabadsvägen 2M',
+      zip: '285 32',
+      city: 'Markaryd',
+    },
+  },
+  {
+    id: 2,
+    name: 'Färgglada morötter',
+    img: require('../../images/products/carrots.jpg').default,
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nam rutrum felis non neque pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nam rutrum felis non neque pharetra.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nam rutrum felis non neque pharetra.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nam rutrum felis non neque pharetra.',
+    price: 18,
+    format: 'kg',
+    date: new Date(2020, 12, 1),
+    producer: 'Karl och Bellas',
+    categories: ['grönsak'],
+    address: {
+      street: 'Lidholmsvägen 16',
+      zip: '365 31',
+      city: 'Lessebo',
+    },
+  },
+  {
+    id: 3,
+    name: 'Nyplockade champinjoner',
+    img: require('../../images/products/mushrooms.jpg').default,
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nam rutrum felis non neque pharetra.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nam rutrum felis non neque pharetra.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nam rutrum felis non neque pharetra.',
+    price: 45,
+    format: 'kg',
+    date: new Date(2020, 11, 25),
+    producer: 'Marias reko råvaror',
+    categories: ['svamp', 'grönsak'],
+    address: {
+      street: 'Växjö Bäckaslövs Gård',
+      zip: '352 35',
+      city: 'Växjö',
+    },
+  },
+  {
+    id: 4,
+    name: 'Smakrik lök',
+    img: require('../../images/products/onions.jpg').default,
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nam rutrum felis non neque pharetra.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nam rutrum felis non neque pharetra.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nam rutrum felis non neque pharetra.',
+    price: 10,
+    format: 'kg',
+    date: new Date(2020, 12, 4),
+    producer: 'Mattias eko gård',
+    categories: ['grönsak'],
+    address: {
+      street: 'Fylleryd Vais-Torpet',
+      zip: '355 92',
+      city: 'Växjö',
+    },
+  },
+  {
+    id: 5,
+    name: 'Saftiga päron',
+    img: require('../../images/products/pears.jpg').default,
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nam rutrum felis non neque pharetra.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nam rutrum felis non neque pharetra.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nam rutrum felis non neque pharetra.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nam rutrum felis non neque pharetra.',
+    price: 35,
+    format: 'kg',
+    date: new Date(2020, 11, 15),
+    producer: 'Johans gård',
+    categories: ['frukt'],
+    address: {
+      street: 'Hannabadsvägen 2M',
+      zip: '285 32',
+      city: 'Markaryd',
+    },
+  },
+  {
+    id: 6,
+    name: 'Ekologisk potatis',
+    img: require('../../images/products/potatoes.jpg').default,
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nam rutrum felis non neque pharetra.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nam rutrum felis non neque pharetra.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nam rutrum felis non neque pharetra.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nam rutrum felis non neque pharetra.',
+    price: 15,
+    format: 'kg',
+    date: new Date(2020, 12, 7),
+    producer: 'Marias reko råvaror',
+    categories: ['rotfrukt'],
+    address: {
+      street: 'Växjö Bäckaslövs Gård',
+      zip: '352 35',
+      city: 'Växjö',
+    },
+  },
+  {
+    id: 7,
+    name: 'Färska jordgubbar',
+    img: require('../../images/products/strawberries.jpg').default,
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nam rutrum felis non neque pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nam rutrum felis non neque pharetra.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nam rutrum felis non neque pharetra.',
+    price: 65,
+    format: 'kg',
+    date: new Date(2020, 11, 9),
+    producer: 'Sofies bär och frukt',
+    categories: ['bär', 'frukt'],
+    address: {
+      street: 'Mårslycke Lyckebo',
+      zip: '362 91',
+      city: 'Tingsryd',
+    },
+  },
+  {
+    id: 8,
+    name: 'Ekologiska smakrika tomater',
+    img: require('../../images/products/tomatoes.jpg').default,
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nam rutrum felis non neque pharetra.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nam rutrum felis non neque pharetra.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nam rutrum felis non neque pharetra.',
+    price: 25,
+    format: 'kg',
+    date: new Date(2020, 11, 20),
+    producer: 'Mattias eko gård',
+    categories: ['grönsak', 'frukt'],
+    address: {
+      street: 'Fylleryd Vais-Torpet',
+      zip: '355 92',
+      city: 'Växjö',
+    },
+  },
+  {
+    id: 9,
+    name: 'Högkvalitativt vete',
+    img: require('../../images/products/wheat.jpg').default,
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nam rutrum felis non neque pharetra.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nam rutrum felis non neque pharetra.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nam rutrum felis non neque pharetra.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nam rutrum felis non neque pharetra.',
+    price: 15,
+    format: 'kg',
+    date: new Date(2020, 12, 3),
+    producer: 'Karl och Bellas',
+    categories: ['spannmål'],
+    address: {
+      street: 'Lidholmsvägen 16',
+      zip: '365 31',
+      city: 'Lessebo',
+    },
+  },
+];

@@ -1,0 +1,12 @@
+.product-image-form {
+  margin: 1em auto !important;
+  display: flex !important;
+  align-content: center !important;
+  object-fit: cover !important;
+  max-height: 400px !important;
+  width: 80% !important;
+}
+
+#change-image-input {
+  cursor: pointer;
+}

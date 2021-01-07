@@ -1,0 +1,13 @@
+#preview-modal {
+  position: relative !important;
+  width: fit-content !important;
+}
+
+.preview-amount-label {
+  display: inline-flex !important;
+}
+
+#preview-modal .amount-label {
+  padding-right: 0 !important;
+  margin-right: 0 !important;
+}

@@ -1,0 +1,13 @@
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.icon-size {
+  font-size: 23px;
+}
+
+.icon-text {
+  padding-left: 4px;
+  font-style: italic;
+}

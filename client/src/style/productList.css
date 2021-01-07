@@ -1,0 +1,29 @@
+:root {
+  --products-color: var(--text-secondary: #404040);
+}
+
+.product-list .products-img {
+  max-height: 193px !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+
+.product-list .card-body {
+  padding-top: 0 !important;
+}
+
+.product-list .products-card {
+  margin-bottom: 1.5em !important;
+}
+
+.product-list .card-title {
+  text-decoration: none !important;
+  font-size: 1.2em !important;
+  color: var(--products-color);
+}
+
+.product-list .sub-title {
+  font-size: 0.9em !important;
+  margin-top: 0.3em !important;
+  color: var(--products-color);
+}

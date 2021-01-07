@@ -1,0 +1,60 @@
+:root {
+  --products-color: var(--text-secondary: #404040);
+  --brn-primary: var(--btn-primary: #669bce);
+  --text-primary: var(--text-primary: #ffffff);
+}
+
+/* Active products list style*/
+.active-products .active-product-img {
+  height: 10rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+
+.active-products .active-product-title {
+  text-decoration: none !important;
+  font-size: 1.1em !important;
+  color: var(--products-color);
+}
+
+.edit-link {
+  text-decoration: none;
+  color: var(--products-color);
+}
+
+.active-products .edit-link:hover {
+  color: rgb(102, 117, 122);
+}
+
+.preview-button {
+  text-decoration: none !important;
+  color: var(--products-color);
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: baseline !important;
+  padding-left: 0 !important;
+  border: none !important;
+}
+
+.preview-button svg {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+  margin-right: 0.25em !important;
+}
+
+.preview-button:hover {
+  color: rgb(102, 117, 122);
+  text-decoration: none !important;
+}
+
+.preview-button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.active-products-menu {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: baseline !important;
+  justify-content: flex-start !important;
+}

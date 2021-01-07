@@ -1,0 +1,55 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "preinstall": "npx npm-force-resolutions",
+    "build": "babel src --out-dir dist",
+    "serve": "node dist/index.js",
+    "test": "jest",
+    "lint": "eslint src",
+    "prettier": "prettier --single-quote --print-width 100 --trailing-comma all --write 'src/**/*.js'",
+    "seed": "npx sequelize db:seed:all"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^2.19.0",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "graphql": "^15.4.0",
+    "graphql-middleware": "^6.0.0",
+    "graphql-shield": "^7.4.4",
+    "graphql-tools": "^7.0.1",
+    "graphql-upload": "^11.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "pg": "^8.5.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5",
+    "shortid": "^2.2.16",
+    "slugify": "^1.4.6",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.6",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.6",
+    "prettier": "^2.1.2",
+    "regenerator-runtime": "^0.13.7",
+    "sequelize-cli": "^6.2.0"
+  },
+  "resolutions": {
+    "fs-capacitor": "^6.2.0",
+    "graphql-upload": "^11.0.0"
+  }
+}

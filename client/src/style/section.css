@@ -1,0 +1,25 @@
+:root {
+  --section-dark: var(--site-grey);
+  --section-text-primary: var(--text-primary);
+  --section-text-secondary: var(--text-secondary);
+}
+
+.section-dark {
+  padding: 6rem 0 6rem 0;
+  color: var(--section-text-primary);
+  background-color: var(--section-dark);
+}
+
+.section-light {
+  padding: 6rem 0 6rem 0;
+}
+
+.section-bg {
+  padding: 6rem 0 6rem 0;
+  color: var(--section-text-secondary);
+  background-image: url('https://cdn.pixabay.com/photo/2019/03/04/14/38/field-4034274_1280.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}

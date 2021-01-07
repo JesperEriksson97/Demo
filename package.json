@@ -1,0 +1,22 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "Project for course 2dv612",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "cd server && npm start",
+    "client": "cd client && npm start",
+    "start": "concurrently \"npm run server\"  \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.lnu.se:2dv612/student/team-3/project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.3.0"
+  },
+  "devDependencies": {}
+}

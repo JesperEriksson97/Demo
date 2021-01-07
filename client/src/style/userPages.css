@@ -1,0 +1,55 @@
+#user-settings,
+#user-overview {
+  background-image: url('../images/headerField.jpg') !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#user-settings .container,
+#user-overview .container {
+  background: rgb(220, 221, 189);
+  padding: 2em;
+  border-radius: 1em;
+}
+
+#user-settings .nav-tabs,
+#user-settings .nav-item {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+#user-settings .nav-link:not(.active) {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+#user-settings .nav-link.active {
+  background: rgb(220, 221, 189);
+  border-bottom: none;
+}
+
+#user-settings h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+#user-settings a,
+#user-overview a {
+  color: #212529;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  border-color: rgb(175, 177, 150);
+}
+
+#user-settings .list-group-item:not(.active),
+#user-overview .list-group-item:not(.active) {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+#user-settings .list-group-item.active,
+#user-overview .list-group-item.active {
+  background: rgb(220, 221, 189);
+  border-color: var(--text-secondary);
+}
